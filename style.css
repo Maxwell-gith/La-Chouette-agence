@@ -207,6 +207,10 @@ a:hover {
     width: 100px;
 }
 
+h4{
+    color: white;
+}
+
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -231,7 +235,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
@@ -249,7 +252,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
@@ -646,7 +648,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -731,7 +732,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: white;
 }
 
 .icons {
