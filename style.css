@@ -714,7 +714,6 @@ p {
 }
 
 .social {
-    display: inline-block;
     display: flex;
     max-width: 400px;
     margin: auto auto auto auto;
