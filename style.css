@@ -93,6 +93,7 @@ li{
     content: "";
     background-size: 2px 2px;
     position: absolute;
+    z-index: 0;
     top: 0;
     bottom: 0;
     left: 0;
@@ -557,7 +558,6 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -567,6 +567,9 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a[data-lightbox]:hover img {
@@ -666,6 +669,8 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: black!important;
+    position: relative;
+    z-index: 2;
 }
 
 .container {
@@ -715,10 +720,10 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .social__icons{
